@@ -222,7 +222,7 @@
 
         <p>Nouvelle fonctionnalité</p>
         <p>Nouvelle fonctionnalité Laravel</p>
-        <p>Test commit</p>
+        <p>Test commit yo</p>
         <footer>Laboratoire Git</footer>
     </body>
 </html>
