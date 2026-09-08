@@ -221,6 +221,7 @@
         @endif
 
         <p>Nouvelle fonctionnalité</p>
+        <p>Nouvelle fonctionnalité Laravel</p>
         <footer>Laboratoire Git</footer>
     </body>
 </html>
