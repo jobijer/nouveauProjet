@@ -220,6 +220,7 @@
             <div class="h-14.5 hidden lg:block"></div>
         @endif
 
+        <p>Nouvelle fonctionnalité</p>
         <footer>Laboratoire Git</footer>
     </body>
 </html>
