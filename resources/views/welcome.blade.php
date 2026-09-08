@@ -219,5 +219,7 @@
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif
+
+        <footer>Laboratoire Git</footer>
     </body>
 </html>
