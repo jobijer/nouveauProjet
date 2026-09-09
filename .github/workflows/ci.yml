@@ -1,0 +1,18 @@
+name: Mon premier pipeline
+
+on:
+  push:
+
+jobs:
+  bonjour:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Dire bonjour
+        run: echo "Bonjour depuis GitHub Actions !"
+
+      - name: Afficher la date
+        run: date
+
+      - name: Afficher le répertoire de travail
+        run: pwd
