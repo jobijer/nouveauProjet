@@ -8,7 +8,7 @@ class CalculateurPrix
     {
         if ($tauxTaxe < 0 || $prixHT < 0) {
             throw new \InvalidArgumentException(
-                "Le taux de taxe ne peut pas être négatif."
+                'Le taux de taxe ne peut pas être négatif.'
             );
         }
 
@@ -19,7 +19,7 @@ class CalculateurPrix
     {
         if ($remisePourcentage < 0 || $prix < 0) {
             throw new \InvalidArgumentException(
-                "La remise ne peut pas être négative."
+                'La remise ne peut pas être négative.'
             );
         }
 
@@ -32,12 +32,10 @@ class CalculateurPrix
     {
         if ($seuilMinimum < 0 || $prix < 0) {
             throw new \InvalidArgumentException(
-                "Le seuil minimum ne peut pas être négatif."
+                'Le seuil minimum ne peut pas être négatif.'
             );
         }
 
         return $prix >= $seuilMinimum;
     }
-
-
 }
